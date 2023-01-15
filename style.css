@@ -1,8 +1,8 @@
 /* Basic Styles */
 body {
   /* background-image: url('src/vapor2.png'); */
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   background-image: linear-gradient(to right, #ff6f69, #ffa600);
 }
 
