@@ -815,7 +815,7 @@ footer {
 .clients .helper img {
 	vertical-align: middle;
 	max-height: 70px;
-	max-width: 80%;
+	max-width: 50%;
 }
 .clients .customNavigation > a {
 	font-size: 25px;
@@ -843,14 +843,14 @@ background: url(../images/bg2.png) top no-repeat;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 50%) {
 .banner-container > img {
 	min-width: 50%;
 	height:400px;
 	
 }
 .team-member .member-img img {
-	max-width: 100%;
+	max-width: 50%;
 }
 
 .header .navbar-nav > li > a {
