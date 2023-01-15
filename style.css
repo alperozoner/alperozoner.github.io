@@ -1,77 +1,59 @@
 /* Basic Styles */
-
-/* Change the background to an ML-related image */
 body {
-  background-image: url('src/vapor2.png');
+  /* background-image: url('src/vapor2.png'); */
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #ff6f69, #ffa600);
 }
 
-/* Make the website slick and simplistic */
-header, footer, nav, main {
-  background-color: rgba(255, 255, 255, 0.8);
+/* Use modern font */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a box-shadow */
+section {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Use colorful and modern hover effect */
+section h3:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a border-radius */
+img {
+  border-radius: 10px;
+}
+
+/* Add a border */
+section#skills ul {
+  border: 2px solid #ffa600;
   padding: 1em;
   border-radius: 10px;
 }
 
-header h1, footer p {
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 1em;
-}
-
-nav a {
+/* Use different colors for different sections */
+section#about {
+  background-color: #ff6f69;
   color: #fff;
-  text-decoration: none;
 }
-
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em;
+section#experience {
+  background-color: #ffd600;
 }
-
-/* Section Styles */
-section {
-  margin-bottom: 1em;
-}
-
-section h2 {
-  margin-top: 0;
-}
-
-/* Project Styles */
 section#projects {
-  display: flex;
-  flex-wrap: wrap;
+  background-color: #1e90ff;
+  color: #fff;
 }
-
-section#projects h3 {
-  width: 100%;
-  margin-bottom: 0.5em;
+section#education {
+  background-color: #ffa600;
+  color: #fff;
 }
-
-section#projects p {
-  width: 100%;
+section#skills {
+  background-color: #9acd32;
+  color: #fff;
 }
-
-/* Images styles */
-img {
-  width: 40%;
-  height: auto;
-  margin-bottom: 1em;
-}
-
-/* Add a hover effect to images */
-img:hover {
-  opacity: 0.7;
-}
+section#contact {
+  background-color: #ff6f69;
+  color:
