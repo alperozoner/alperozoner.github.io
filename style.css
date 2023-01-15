@@ -1,22 +1,21 @@
 /* Basic Styles */
+
+/* Change the background to an ML-related image */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background-image: url('ml-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-header, footer {
-  background-color: #f2f2f2;
+/* Make the website slick and simplistic */
+header, footer, nav, main {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1em;
+  border-radius: 10px;
 }
 
 header h1, footer p {
   text-align: center;
-}
-
-nav {
-  background-color: #333;
-  color: #fff;
 }
 
 nav ul {
