@@ -828,7 +828,7 @@ background: url(../images/bg2.png) top repeat;
 #contactUs{
 	background: url(../images/bg.jpg) top repeat;
 }
-@media (min-width: 768px) {
+@media (min-width: 368px) {
 .header .navbar-brand {
 	padding-left: 0;
 }
@@ -845,7 +845,7 @@ background: url(../images/bg2.png) top repeat;
 
 @media (max-width: 768px) {
 .banner-container > img {
-	min-width: 100%;
+	min-width: 50%;
 	height:400px;
 	
 }
