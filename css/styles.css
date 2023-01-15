@@ -827,7 +827,8 @@ footer {
 background: url(../images/parlex-bg.jpg) top no-repeat;	
 	}
 #contactUs{
-	background: url(../images/parlex-bg.jpg) top no-repeat;
+	background: url(../images/bg2.png) top no-repeat; 
+	background-size: cover;
 }
 @media (min-width: 368px) {
 .header .navbar-brand {
