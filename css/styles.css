@@ -565,7 +565,7 @@ min-height:200px;
 	overflow: hidden;
 }
 .team-member .member-img img {
-	max-width: 250px;
+	max-width: 100%;
 	margin: 0 auto;
 	border: 1px solid #FF7A00;
 }
@@ -815,7 +815,7 @@ footer {
 .clients .helper img {
 	vertical-align: middle;
 	max-height: 70px;
-	max-width: 50%;
+	max-width: 100%;
 }
 .clients .customNavigation > a {
 	font-size: 25px;
@@ -843,14 +843,14 @@ background: url(../images/bg2.png) top no-repeat;
 
 }
 
-@media (max-width: 50%) {
+@media (max-width: 100%) {
 .banner-container > img {
 	min-width: 50%;
 	height:400px;
 	
 }
 .team-member .member-img img {
-	max-width: 50%;
+	max-width: 100%;
 }
 
 .header .navbar-nav > li > a {
