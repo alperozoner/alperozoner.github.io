@@ -824,10 +824,10 @@ footer {
 	margin: 0px 5px;
 }
 #portfolio{
-background: url(../images/bg2.png) top no-repeat;	
+background: url(../images/parlex-bg.jpg) top no-repeat;	
 	}
 #contactUs{
-	background: url(../images/bg.jpg) top no-repeat;
+	background: url(../images/parlex-bg.jpg) top no-repeat;
 }
 @media (min-width: 368px) {
 .header .navbar-brand {
